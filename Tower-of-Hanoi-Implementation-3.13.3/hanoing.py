@@ -9,7 +9,7 @@ number of disks of different sizes. All disks start on the first rod in
 decreasing order of size, with the smallest disk on top.
 
 The objective is to move all disks from the first rod to the last rod while
-following these rules:\\\
+following these rules:
 1. Only one disk may be moved at a time.
 2. Only the top-most disk of any rod can be moved.
 3. A larger disk cannot be placed on top of a smaller disk.
