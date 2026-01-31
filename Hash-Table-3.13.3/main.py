@@ -2,12 +2,8 @@ class HashTable:
     def __init__(self):
         self.collection = {}
 
-    def hash(self,string1):
-        string_list = list(string1)
-        ascii_sum = 0
-        for string in string_list:
-            ascii_sum += ord(string)
-        return ascii_sum
+    def hash(self, key):
+        return sum(ord(char) for char in str(key))
 
     def add(self, key, value):
         hashed_key = self.hash(key)
