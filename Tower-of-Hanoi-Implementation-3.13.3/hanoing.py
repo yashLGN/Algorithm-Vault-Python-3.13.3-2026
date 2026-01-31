@@ -25,14 +25,14 @@ The function hanoi_solver(n) should:
 """
 
 def hanoi_solver(n):
-    # Initialize rods
+    # Initializing the rods
     source = list(range(n, 0, -1))
     auxiliary = []
     target = []
 
     moves = []
 
-    # Record initial state
+    # Recording the initial state
     moves.append(f"{source} {auxiliary} {target}")
 
     def move_disks(num, src, aux, tgt):
