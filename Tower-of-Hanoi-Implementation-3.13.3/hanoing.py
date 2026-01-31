@@ -27,24 +27,24 @@ The function hanoi_solver(n) should:
 def hanoi_solver(n):
     # Initializing the rods
     source = list(range(n, 0, -1))
-    auxiliary = []
+    mid = []
     target = []
 
     moves = []
 
     # Recording the initial state
-    moves.append(f"{source} {auxiliary} {target}")
+    moves.append(f"{source} {mid} {target}")
 
     def move_disks(num, src, aux, tgt):
         if num == 1:
             disk = src.pop()
             tgt.append(disk)
-            moves.append(f"{source} {auxiliary} {target}")
+            moves.append(f"{source} {mid} {target}")
         else:
             move_disks(num - 1, src, tgt, aux)
             move_disks(1, src, aux, tgt)
             move_disks(num - 1, aux, src, tgt)
 
-    move_disks(n, source, auxiliary, target)
+    move_disks(n, source, mid, target)
 
     return "\n".join(moves)
