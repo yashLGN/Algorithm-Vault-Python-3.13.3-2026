@@ -1,7 +1,7 @@
 
 """
 
-Problem Statement:
+Statement:
 Implement the Tower of Hanoi algorithm using recursion.
 
 The Tower of Hanoi is a mathematical puzzle consisting of three rods and a

@@ -1,6 +1,6 @@
 '''
 
-HashTable Problem Statement
+HashTable Statement
 
 Description
 
