@@ -4,7 +4,7 @@ It is what describes and shows the **growth rate** of an algorithm along with th
 The growth rate refers to how much **resources it requires as the input values increases**.
 
 ---
-## Common Time Complexities
+## Common Time Complexities used
 
 | Complexity   | Name                 | What it Means                                                        | Example                     |
 |------------- |-------------------- |---------------------------------------------------------------------- |---------------------------- |
